@@ -1,8 +1,6 @@
 [core]
-    remote = storage
-['remote "gdrive_pmd"']
-    url = gdrive://1Jjv6tqFg0VDml7Pam7z3PMima9A2NI94
-['remote "pdm_datasets"']
-    url = gdrive://1Jjv6tqFg0VDml7Pam7z3PMima9A2NI94
-['remote "storage"']
-    url = gdrive://1Jjv6tqFg0VDml7Pam7z3PMima9A2NI94
+    remote = gdrive_remote
+
+[remote "gdrive_remote"]
+    url = gdrive://18MWaOddSamFYaQKwUhYX4MVbZ0jWtNJC
+    gdrive_use_service_account = true

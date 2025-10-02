@@ -1,5 +1,0 @@
-outs:
-- md5: 30a9e8a2212abd072a7beeb127846b23
-  size: 68463385
-  hash: md5
-  path: model_cifar10.joblib
