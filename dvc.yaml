@@ -1,0 +1,9 @@
+metrics:
+- dvclive/metrics.json
+plots:
+- dvclive/plots/metrics:
+    x: step
+artifacts:
+  model_cifar10:
+    path: data/model_cifar10.joblib
+    type: model
